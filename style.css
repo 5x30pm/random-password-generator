@@ -1,0 +1,103 @@
+* {
+    font-family: 'Poppins', 'sens-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 6px rgba(255,255,255,0.8);
+}
+.hover:hover{
+    transition:0.2s;
+    transform: scale(1.02);
+    box-shadow: 0 0 5px #fff;
+}
+body {
+    background-color: #002339;
+    color: #fff;
+}
+
+.container {
+    margin: 12% auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+
+.container h1 span {
+    border-bottom: 0.2rem solid #019f55;
+    color: #019f55;
+    font-weight: 900;
+}
+
+.password-box {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #333;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-box input {
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+}
+
+.password-box img {
+    width: 2rem;
+    cursor: pointer;
+}
+
+#button-box {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background-color: #019f55;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.container button img {
+    height: 1.5rem;
+}
+
+.pass-list {
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    color: #333;
+    border-radius: 0.5rem;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        margin: 12% auto;
+        /* width: 80%; */
+
+    }
+
+    #button-box {
+        flex-direction: column;
+    }
+}
