@@ -79,13 +79,13 @@ random-password-generator/
 * No passwords are stored or transmitted to external servers.
 * For maximum security, use long passwords with a mix of character types.
 
-## Future Improvements
+<!-- ## Future Improvements
 
 * Password strength indicator
 * Dark mode support
 * Password history
 * Pronounceable password generation
-* Export passwords securely
+* Export passwords securely -->
 
 ## Contributing
 
