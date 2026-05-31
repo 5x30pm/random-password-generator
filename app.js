@@ -52,7 +52,7 @@ function genPass() {
     let pass = '';
     let lowerCase = 'qwertyuiopasdfghjklzxcvbnm';
     let upperCase = 'QWERTYUIOPASDFGHJKLZXCVBNM';
-    let symbol = '`~!@#$%^&*()_+-=[];,./{}:"<>?';
+    let symbol = '!@#$%^&*()_-+';
     let num = '1234567890';
 
     pass += lowerCase[Math.floor(Math.random() * lowerCase.length)];
