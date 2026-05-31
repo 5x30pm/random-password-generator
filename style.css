@@ -1,3 +1,4 @@
+/* reseting defult style  */
 * {
     font-family: 'Poppins', 'sens-serif';
     margin: 0;
@@ -5,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+/* utilities  */
 .box-shadow {
     box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.8);
 }
@@ -15,6 +18,8 @@
     box-shadow: 0 0 5px #fff;
 }
 
+
+/* body  */
 body {
     background-color: #002339;
     color: #fff;
@@ -26,13 +31,14 @@ body {
     max-width: 900px;
 }
 
-
+/* heading  */
 .container h1 span {
     border-bottom: 0.2rem solid #019f55;
     color: #019f55;
     font-weight: 900;
 }
 
+/* gen pass and copy btn  */
 .password-box {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -58,6 +64,7 @@ body {
     cursor: pointer;
 }
 
+/* both button container */
 #button-box {
     display: flex;
     justify-content: center;
@@ -84,6 +91,8 @@ body {
     height: 1.5rem;
 }
 
+
+/* for password print using js  */
 .pass-list {
     margin-top: 1rem;
     padding: 2rem 1rem;
@@ -92,15 +101,22 @@ body {
     border-radius: 0.5rem;
 }
 
-
-
-
+/* footer  */
 footer {
-    position:absolute;
+    position: absolute;
     bottom: 1rem;
     right: 1rem;
 }
 
+
+
+
+
+
+
+
+
+/* Media query  */
 @media(max-width:600px) {
     #button-box {
         flex-direction: column;
