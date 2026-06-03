@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Checkbox */
+.main_box input {
+    display: none;
+}
+
+/* Button one means Menu button  */
+
+.main_box .btn_one label img {
+    filter: invert(1);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    height: 70px;
+    width: 70px;
+    /* color: black; */
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+/* Sidebar menu  */
+.main_box .sidebar_menu {
+    z-index: 5;
+    margin: 0;
+    padding-top: 0;
+    top: 5px;
+    position: absolute;
+    left: -400px;
+    width: 300px;
+    height: 90vh;
+    border-radius: 0 20px 20px 0;
+    background-color: #002339;
+    transition: all .2s ease-in;
+    box-shadow: 0 0 5px white;
+}
+
+/* logo pannel in sidebar menu  */
+.main_box .sidebar_menu #logo {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    border-radius: 0 20px 0 0;
+    box-shadow: 0 0 4px white;
+}
+
+/* Website name Pannel */
+.main_box .sidebar_menu #logo a {
+    position: absolute;
+    margin: 5px;
+    left: 20px;
+    top: 0;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Button two means close menu  */
+.main_box .sidebar_menu .btn_two label img {
+    filter: invert(1);
+    position: absolute;
+    margin-top: 10px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    color: black;
+    transition: all 0.2s;
+    /* opacity:0; */
+}
+
+/* Menu   */
+.main_box .sidebar_menu .menu {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+
+/* Remove padding from ul tag */
+.main_box .sidebar_menu .menu ul {
+    padding: 0;
+}
+
+/* Remove underline from menu name */
+.main_box .sidebar_menu .menu ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+/* Give space to menu section   */
+.main_box .sidebar_menu .menu ul a li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    width: 100%;
+    padding: auto 10px;
+    box-shadow: 0 0px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Give height and width to logo under menu  */
+.logo {
+    filter: invert(1);
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+/* Social media section  */
+.main_box .sidebar_menu .social_media {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.social_media div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+/* Remove small underline from behind the logo  */
+.main_box .sidebar_menu .social_media a {
+    text-decoration: none;
+}
+
+/* Set Social media logo size */
+.main_box .sidebar_menu .social_media a .social_logo {
+    filter: invert(1);
+    height: 40px;
+    width: 40px;
+    opacity: .7;
+}
+
+/* Hover Effects  */
+
+/* Button one  */
+.main_box .btn_one label img:hover {
+    transform: scale(1.2);
+}
+
+/* Button Two  */
+.main_box .sidebar_menu .btn_two label img:hover {
+    transform: scale(1.2);
+}
+
+/* menu list  */
+.main_box .sidebar_menu .menu ul a li:hover {
+
+    transform: scale(1.01);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Social media image  */
+.main_box .sidebar_menu .social_media a .social_logo:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/* Working style  */
+#button:checked~.sidebar_menu {
+    left: 0px;
+}
+
+/* Button one hide  */
+#button:checked~.btn_one {
+    display: none;
+
+}
