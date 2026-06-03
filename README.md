@@ -16,7 +16,11 @@ A simple and secure random password generator built with JavaScript. Generate st
 ## Demo
 
 Try the live version here:
-  [Preview](https://5x30pm.github.io/random-password-generator)
+  [Live Preview](https://5x30pm.github.io/random-password-generator)  
+
+
+## Screenshot 
+<img src="https://raw.githubusercontent.com/5x30pm/random-password-generator/refs/heads/main/screenshot/V.0.2/random-pass-gen-sc1.png" alt="screen-shot-01">
 
 ## Technologies Used
 
