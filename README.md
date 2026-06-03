@@ -20,7 +20,7 @@ Try the live version here:
 
 
 ## Screenshot 
-<img src="https://raw.githubusercontent.com/5x30pm/random-password-generator/refs/heads/main/screenshot/V.0.2/random-pass-gen-sc1.png" alt="screen-shot-01">
+<img src="https://raw.githubusercontent.com/5x30pm/random-password-generator/refs/heads/main/screenshot/V.0.2/random-pass-gen-sc1.png" alt="screen-shot-01" width="350px">
 
 ## Technologies Used
 
