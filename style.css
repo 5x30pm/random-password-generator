@@ -121,11 +121,15 @@ footer {
     #button-box {
         flex-direction: column;
     }
+
+    .container {
+        margin: 25% auto;
+    }
 }
 
 @media (max-width: 450px) {
     .container {
-        margin: 12% auto;
+        margin: 30% auto;
         /* width: 80%; */
 
     }
